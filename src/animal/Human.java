@@ -17,6 +17,9 @@ public class Human extends Animal implements Thinkable{
     }
 
     public Human(String name, String age, String shumi) {
+        super(name, age);
+        this.shumi = shumi;
+
 
     }
 

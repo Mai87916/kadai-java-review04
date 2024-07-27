@@ -5,6 +5,7 @@ public class Animal {
     private String name;     // 名前
     private String age;     // 年齢
 
+
     public Animal() {
     }
 
@@ -24,7 +25,7 @@ public class Animal {
         this.age = age;
     }
 
-    public Animal(String namee, String age) {
+    public Animal(String name, String age) {
         this.name = name;
         this.age = age;
 
@@ -33,4 +34,13 @@ public class Animal {
     public void say() {
         System.out.println(name + "です。" + age + "歳です。");
     }
+
+    public void think() {
+        // TODO 自動生成されたメソッド・スタブ
+
+    }
+
+
+
+
 }
