@@ -29,4 +29,8 @@ public class Human extends Animal implements Thinkable{
     }
 
 
+    @Override
+    public void say() {
+        System.out.println(getName() + "です。" + getAge() + "歳です。");
+    }
 }

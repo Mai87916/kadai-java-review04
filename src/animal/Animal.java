@@ -35,10 +35,7 @@ public class Animal {
         System.out.println(name + "です。" + age + "歳です。");
     }
 
-    public void think() {
-        // TODO 自動生成されたメソッド・スタブ
 
-    }
 
 
 
